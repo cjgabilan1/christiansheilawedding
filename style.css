@@ -38,13 +38,18 @@
 .font-2{
   font-family: 'Great Vibes', sans-serif;
   color: #FE9A83;
+  font-size: 7vh;
+}
+.font-3{
+  font-family: 'Great Vibes', sans-serif;
+  color: #FE9A83;
   font-size: 5vh;
 }
 
 
 .marlogo{
-    height: 250px;
-    width: 250px;
+    max-height: 130px;
+    max-width: 130px;
 }
 .subheading{
     text-transform: uppercase;
@@ -58,9 +63,6 @@
   margin-left: auto;
   margin-right: auto;
 }
-#floral1{
-    -webkit-box-reflect: right;
-}
 .jayshe{
     font-size:7vh;
     font-family: 'Great Vibes', sans-serif;
@@ -72,7 +74,10 @@
   font-size: 10vh;
   font-family: 'Great Vibes', sans-serif;
   color: aliceblue;
-  
+}
+.kiss{
+  max-width: 25px;
+  max-height: 50px;
 }
 
 #demo{
@@ -108,9 +113,9 @@
 
 /* Gallery=========================================== */
 .gal-img img{
-  width: 280px;
-  height: 400px;
-  
+  width: 311px;
+  height: auto;
+  border-radius: 5px;
 }
 
 @media screen and (min-width: 600px)  {
@@ -235,6 +240,14 @@
       left: 0%;
     }
   }
+
+
+  /* =======carousel========== */
+  .carou {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
   /* Footer=============================================== */
   .footer-img{
