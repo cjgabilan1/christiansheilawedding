@@ -1,8 +1,8 @@
 
 /* Navbar */
 .navbar-brand img{
-    height: 33px;
-    width: 100px;
+    height: 45px;
+    width: 45px;  
 }
 .nav-item a{
     text-align: justify;
@@ -44,6 +44,11 @@
   font-family: 'Great Vibes', sans-serif;
   color: #FE9A83;
   font-size: 5vh;
+}
+.font-4{
+  font-family: 'Moon Dance', sans-serif;
+  font-size: 23px;
+  font-weight:bold;
 }
 
 
@@ -251,6 +256,6 @@
 
   /* Footer=============================================== */
   .footer-img{
-    height: 40px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
   }
