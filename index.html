@@ -15,7 +15,43 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-no1">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-no1">
         <div class="container-fluid">
           <a class="navbar-brand text-white" href="#" style="font-family:'Moon Dance', sans-serif; font-size: 32px;">
             <img src="images/logo2.png" alt="img not found"> Christian&Sheila
@@ -270,7 +306,7 @@
               <table class="text-center col-lg-5 col-md-6 col-sm-10 font-4">
                 <tr>
                   <th><h3 class="font-3">Groomsmen</h3></th>
-                  <th><h3 class="font-3">Bridesmaid</h3></th>
+                  <th><h3 class="font-3">Bridesmaids</h3></th>
                 </tr>
                 <tr>
                   <td>Mr. Christoffer James Lauro</td>
@@ -319,7 +355,7 @@
                 <td>Zhia Louise Armamento</td>
               </tr>
               <tr>
-                <td><strong>Ring:</strong> NIck Kyler Alcantara</td>
+                <td><strong>Ring:</strong> Nick Kyler Alcantara</td>
                 <td></td>
               </tr>
             </table>
@@ -372,7 +408,7 @@
             <tr>
              <td></td>
              <td></td>
-              <td>Teddy Honrada & RIzalyn Bautro</td>
+              <td>Teddy Honrada & Rizalyn Bautro</td>
             </tr>
           </table>
       </div>
@@ -382,6 +418,7 @@
           
 <!-- Another Carousel for final -->
           <section>
+            <h1 class="jayshe text-center pt-2 mt-2 bg-no1">Family & Friends</h1>
             <div class="container-fluid my-5">
                 <div class="row mt-5">
                     <div class="owl-carousel owl-theme">
@@ -536,7 +573,7 @@
     <!-- Item ends here -->
     <div class="item mb-4">
       <div class="card border-0">
-          <img src="images/carousel14.jpeg" alt="image not found" class="card-img-top rounded-circle shadow" style="width: 150px; display: block; margin-left: auto; margin-right: auto;">
+          <img src="images/carousel14.jpg" alt="image not found" class="card-img-top rounded-circle shadow" style="width: 150px; display: block; margin-left: auto; margin-right: auto;">
           <div class="card-body text-center">
               <h5>Debbie Rose Jugan</h5>
               <p>Bridesmaid</p>
@@ -676,27 +713,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   <!--In it Owl Carousel  -->
-  <script>
-    
-    $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:2
-        },
-        600:{
-            items:2
-        },
-        1000:{
-            items:4
-        }
-    }
-})
-
-
-  </script>
 </body>
 <footer class="bg-no2">
   <div class="container">
@@ -759,5 +775,4 @@
       </div>
     </footer>
 <script src="style.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </html>
