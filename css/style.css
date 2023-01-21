@@ -20,6 +20,17 @@
 }.bg-no4{
     background-color: #FFE8E5;
 }
+.bg-no5{
+  background-color: #bf7f99;
+}
+
+
+.palette {
+  width: 75px;
+  height: 75px;
+  margin: 10px;
+  border-radius: 50%;
+}
 
 /* Background Image */
 .bg-img1{
